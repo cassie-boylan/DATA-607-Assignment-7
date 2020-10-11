@@ -1,0 +1,46 @@
+<books>
+	<book>
+		<title> The Trespasser </title>
+		<author>Tana French</author>
+		<rating>4.2</rating>
+		<genre>Mystery</genre>
+		<year>2016</year>
+		<publisher>Penguin</publisher>
+	</book>
+	
+	<book>
+		<title> Frankenstein </title>
+		<author> Mary Shelley </author>
+		<rating>4.5</rating>
+		<genre>Mystery</genre>
+		<year>1817</year>
+		<publisher>Signet Classics</publisher>
+	</book>
+	
+	<book>
+		<title> Uprooted </title>
+		<author>Naomi Novik</author>
+		<rating>4.07</rating>
+		<genre>Mystery</genre>
+		<year>2015</year>
+		<publisher>Del Ray</publisher>
+	</book>
+	
+		<book>
+		<title> Uprooted </title>
+		<author>V.E. Schwab</author>
+		<rating>4.07</rating>
+		<genre>Mystery</genre>
+		<year>2015</year>
+		<publisher>Del Ray</publisher>
+	</book>
+
+		<book>
+		<title> Uprooted </title>
+		<author>Susie Steiner</author>
+		<rating>4.07</rating>
+		<genre>Mystery</genre>
+		<year>2015</year>
+		<publisher>Del Ray</publisher>
+	</book>	
+</books>

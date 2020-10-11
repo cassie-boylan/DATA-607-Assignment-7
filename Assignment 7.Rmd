@@ -1,0 +1,50 @@
+---
+title: "Assignment 7"
+author: "Cassie Boylan"
+date: "10/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE}
+install.packages("rjson")
+install.packages("XML")
+```
+
+```{r message=FALSE}
+library("XML")
+library("methods")
+library("rjson")
+```
+
+
+```{r json}
+books_json <- fromJSON(file = "json version.json")
+print(books_json)
+#Convert json output to data frame
+books_json_data_frame <- as.data.frame(books_json)
+print(books_json_data_frame)
+```
+
+```{r xml}
+books_xml <- xmlParse(file = "xml_version.xml")
+print(books_xml)
+#Convert xml output to data frame
+books_xml_dataframe <- xmlToDataFrame("xml_version.xml")
+print(books_xml_dataframe)
+```
+
+```{r html}
+books_html <- readHTMLTable("html_table_version.html",
+                            header=TRUE,
+                            stringAsFactors=FALSE)
+print(books_html)
+books_html_dataframe <- as.data.frame(books_html)
+names(books_html_dataframe) <- c("title","author","genre","rating","publisher","year")
+print(books_html_dataframe)
+
+```
+

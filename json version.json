@@ -1,0 +1,8 @@
+{ 
+   "Title":["The Trespasser","Frankenstein","Uprooted", "Uprooted","Uprooted"],
+   "Author":["Tana French","Mary Shelley","Nadia Novik","V.E. Schwab", "Susie Steiner"],
+   "Rating":[4.2,4.5,4.07,4.07,4.07], 
+   "Genre":[ "Mystery","Mystery","Mystery","Mystery", "Mystery"],
+   "Year":[ "2016","1817","2015","2015","2015"],
+   "Publisher":["Penguin","Signet Classics","Del Ray","Del Ray", "Del Ray"]
+}
